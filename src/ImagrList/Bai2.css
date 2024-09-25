@@ -1,0 +1,68 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  .content-box {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .card-img-top {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
