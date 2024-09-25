@@ -1,0 +1,25 @@
+/* App.css */
+.app-container {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo hàng dọc */
+    justify-content: flex-start; /* Sắp xếp từ trên xuống */
+    align-items: center; /* Căn giữa theo chiều ngang */
+    padding: 20px 0; /* Thêm khoảng trống ở trên và dưới */
+    background-color: #f5f5f5; /* Màu nền nhạt */
+  }
+  
+  .box {
+    width: 60%; /* Độ rộng của từng box nhỏ hơn */
+    aspect-ratio: 4 / 3; /* Tỉ lệ khung hình 4:3 để khung nhỏ hơn */
+    margin: 10px 0; /* Khoảng cách nhỏ giữa các box */
+    padding: 10px; /* Khoảng cách bên trong box */
+    border: 1px solid #ccc; /* Viền mỏng hơn */
+    border-radius: 8px; /* Bo góc nhẹ */
+    background-color: white; /* Màu nền trắng */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng nhẹ */
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung bên trong box */
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  
